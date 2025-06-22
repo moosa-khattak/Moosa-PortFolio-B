@@ -31,7 +31,7 @@ App.post("/Contactdata", async (req, res) => {
   }
 });
 
-const port =   3000;
-App.listen(port, () => {
+
+App.listen(process.env.port, () => {
   console.log(`http://localhost:${port}`);
 });
