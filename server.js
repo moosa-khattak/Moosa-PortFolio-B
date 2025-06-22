@@ -32,9 +32,9 @@ App.post("/Contactdata", async (req, res) => {
 });
 
 
-const port = process.env.PORT || 3000
+const PORT = process.env.PORT || 3000
 
 
-App.listen(port, () => {
-  console.log(`http://localhost:${port}`);
+App.listen(PORT, () => {
+  console.log(`http://localhost:${PORT}`);
 });
